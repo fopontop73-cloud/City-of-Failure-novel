@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أمل — مدينة الفشل</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: "Tahoma", Arial, sans-serif;
+      background: radial-gradient(circle at top, #0f1a17 0%, #000 70%);
+      color:#eee;
+      line-height:1.9;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .card{
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.55);
+    }
+    .hero{
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      padding: 16px;
+    }
+    @media (max-width: 850px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+    .imgBox{
+      border-radius: 16px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.12);
+      background:#000;
+      min-height: 360px;
+    }
+    .imgBox img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      filter: contrast(1.05) brightness(0.95);
+    }
+    h1{
+      margin: 0 0 6px;
+      font-size: 30px;
+    }
+    .sub{
+      opacity:0.9;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin: 10px 0 0;
+    }
+    .badge{
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .section{
+      padding: 0 16px 16px;
+    }
+    .title{
+      font-size: 18px;
+      margin: 12px 0 6px;
+      color: #fff;
+    }
+    .quote{
+      margin-top: 14px;
+      background: rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 14px 14px;
+      font-size: 18px;
+    }
+    .quote span{
+      opacity:0.8;
+      font-size: 14px;
+      display:block;
+      margin-bottom: 8px;
+    }
+    .danger{
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(120, 255, 200, 0.10);
+      border: 1px solid rgba(120, 255, 200, 0.20);
+    }
+    .reveal{
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(255, 255, 120, 0.08);
+      border: 1px solid rgba(255, 255, 120, 0.16);
+    }
+    .btns{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 14px;
+    }
+    a.btn{
+      text-decoration:none;
+      color:#fff;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 10px 14px;
+      border-radius: 14px;
+      transition: 0.2s;
+      display:inline-block;
+    }
+    a.btn:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+    .footer{
+      opacity:0.65;
+      font-size: 13px;
+      padding: 14px 16px 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <div class="hero">
+        <div class="imgBox">
+          <img src="image/men/08.jpg" alt="أمل">
+        </div>
+
+        <div>
+          <h1>أمل</h1>
+          <div class="sub">
+            عنصر الذات: <b>الفؤاد (الطاقة الإيجابية)</b> — الضحكة التي تُبقي القلب واقفًا وسط العاصفة.
+          </div>
+
+          <div class="badges">
+            <div class="badge">الهيئة: شابة عشرينية بملابس فقيرة</div>
+            <div class="badge">الصفة: مرحة + متفائلة + رقيقة + هادئة</div>
+            <div class="badge">المهمة: بث الطاقة الموجبة + زرع البسمة وسط التشاحن</div>
+            <div class="badge">المهنة: معلمة</div>
+            <div class="badge">الوحش المؤثر: القرد (الزمن/الدوبامين)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="title">البعد النفسي والروائي</div>
+
+        <p>
+          أمل ليست شخصية “خفيفة الظل” كما قد يتوهم القارئ في البداية…
+          بل هي أحد أخطر الأنماط النفسية في البشر:
+          <b>الشخص الذي يبتسم كي لا ينهار.</b>
+        </p>
+
+        <p>
+          هي تمثل “الطفلة الداخلية” التي ما زالت تؤمن أن الخير ممكن،
+          وأن الغد قد يحمل مفاجأة جميلة،
+          وأن الإنسان يمكنه أن ينهض مرة أخرى…
+          حتى لو كان واقع المدينة ينطق بالعكس.
+        </p>
+
+        <div class="danger">
+          <b>السر الذي تخفيه أمل:</b><br>
+          أمل ليست سعيدة… بل تمثل السعادة.
+          فقدت شخصًا عزيزًا في الماضي،
+          ومنذ ذلك اليوم اتخذت قرارًا غير واعٍ:
+          <b>أن تكون ضحكة الآخرين… ولو على حساب دموعها.</b>
+          وعندما تكون وحدها،
+          تبكي بصمت حتى تتعب…
+          ثم تعود لتضحك كأن شيئًا لم يكن.
+        </div>
+
+        <p>
+          وحشها الأخطر هو:
+          <b>القرد (الزمن/الدوبامين)</b>.
+          لأن القرد لا يسرق منها الوقت فقط…
+          بل يسرق منها “مخزونها من الطاقة”.
+          كل لحظة ترفيه زائدة،
+          كل انشغال صغير،
+          كل ضحكة لا هدف لها…
+          تلتهم شيئًا من نورها الداخلي،
+          حتى تصبح الضحكة قشرة فارغة.
+        </p>
+
+        <div class="reveal">
+          <b>الانقلاب الروائي المقترح:</b><br>
+          في منتصف الرواية،
+          تنهار أمل فجأة أمام الجميع،
+          وتصرخ بجملة واحدة تقلب كل شيء:<br>
+          <b>“أنا تعبت أكون أمل… عايزة أكون حزينة مرة واحدة من غير ما حد يصلّحني.”</b>
+        </div>
+
+        <p>
+          هذه اللحظة تُظهر للقارئ حقيقة صادمة:
+          أن بعض البشر لا يملكون رفاهية الانكسار،
+          لأنهم إن انكسروا…
+          <b>انهار من حولهم.</b>
+        </p>
+
+        <div class="quote">
+          <span>الجملة الذهبية</span>
+          “أنا لا أضحك لأنني بخير… أنا أضحك لأنني لو توقفت… سأختفي.”
+        </div>
+
+        <div class="btns">
+          <a class="btn" href="home.html">⬅ العودة إلى صفحة الوحوش</a>
+          <a class="btn" href="char-07.html">⟵ الشخصية السابقة</a>
+          <a class="btn" href="char-09.html">الشخصية التالية ⟶</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        رواية مدينة الفشل — بطاقات الشخصيات الرسمية.
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

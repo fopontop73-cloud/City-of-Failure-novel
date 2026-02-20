@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مدينة الفشل — الغلاف</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: radial-gradient(circle at top, #101217 0%, #000 75%);
+      color:#eee;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 18px;
+    }
+
+    .cover{
+      width: min(980px, 100%);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 22px;
+      overflow:hidden;
+      box-shadow: 0 22px 60px rgba(0,0,0,0.65);
+    }
+
+    .top{
+      padding: 26px 22px 10px;
+      text-align:center;
+    }
+
+    .title{
+      font-size: 40px;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .subtitle{
+      margin-top: 8px;
+      opacity:0.85;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .mid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      padding: 18px 22px 22px;
+      align-items:center;
+    }
+
+    @media (max-width: 820px){
+      .mid{ grid-template-columns: 1fr; }
+      .title{ font-size: 34px; }
+    }
+
+    .quote{
+      background: rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 16px;
+      font-size: 18px;
+      line-height: 1.9;
+    }
+
+    .quote span{
+      display:block;
+      opacity:0.7;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .desc{
+      opacity:0.9;
+      line-height:1.9;
+      font-size: 16px;
+    }
+
+    .btnRow{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      justify-content:center;
+      padding: 0 22px 24px;
+    }
+
+    a.btn{
+      text-decoration:none;
+      color:#fff;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 14px 18px;
+      border-radius: 16px;
+      transition: 0.2s;
+      font-size: 16px;
+      display:inline-block;
+    }
+
+    a.btn:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+
+    .btn.main{
+      font-weight:bold;
+      background: rgba(255,255,255,0.14);
+    }
+
+    footer{
+      text-align:center;
+      opacity:0.55;
+      font-size: 13px;
+      padding: 12px 18px 18px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="cover">
+
+    <div class="top">
+      <h1 class="title">مدينة الفشل</h1>
+      <div class="subtitle">
+        رواية تفاعلية — ليست للقراءة فقط… بل للمواجهة.
+      </div>
+    </div>
+
+    <div class="mid">
+      <div class="quote">
+        <span>جملة الغلاف</span>
+        “كل ما تحذره ...لا يختفي.<br>
+         بل يتحول إلى وحش… ينتظرك ....هـنــــــا.”
+      </div>
+
+      <div class="desc">
+        هذه ليست صفحة بداية لموقع…<br>
+        بل بوابة.<br><br>
+        إن دخلت… ستقابل الوحوش التي لا تُرى،<br>
+        وستعرف أيّها يسكنك أنت.
+      </div>
+    </div>
+
+    <div class="btnRow">
+      <a class="btn main" href="home.html">الدخول إلى المغارة ⟶</a>
+      <a class="btn" href="characters.html">شخصيات الرواية</a>
+    </div>
+
+    <footer>
+      © -إبتكار وتأليف :المدرب التربوى/ حسن حجازى/  002/01159166515 — مشروع تفاعلي داعم لرواية مدينة الفشل
+    </footer>
+
+  </div>
+
+</body>
+</html>

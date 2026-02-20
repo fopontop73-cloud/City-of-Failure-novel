@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رضا — مدينة الفشل</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: "Tahoma", Arial, sans-serif;
+      background: radial-gradient(circle at top, #151515 0%, #000 70%);
+      color:#eee;
+      line-height:1.9;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .card{
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.55);
+    }
+    .hero{
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      padding: 16px;
+    }
+    @media (max-width: 850px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+    .imgBox{
+      border-radius: 16px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.12);
+      background:#000;
+      min-height: 360px;
+    }
+    .imgBox img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      filter: contrast(1.05) brightness(0.95);
+    }
+    h1{
+      margin: 0 0 6px;
+      font-size: 30px;
+    }
+    .sub{
+      opacity:0.9;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin: 10px 0 0;
+    }
+    .badge{
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .section{
+      padding: 0 16px 16px;
+    }
+    .title{
+      font-size: 18px;
+      margin: 12px 0 6px;
+      color: #fff;
+    }
+    .quote{
+      margin-top: 14px;
+      background: rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 14px 14px;
+      font-size: 18px;
+    }
+    .quote span{
+      opacity:0.8;
+      font-size: 14px;
+      display:block;
+      margin-bottom: 8px;
+    }
+    .btns{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 14px;
+    }
+    a.btn{
+      text-decoration:none;
+      color:#fff;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 10px 14px;
+      border-radius: 14px;
+      transition: 0.2s;
+      display:inline-block;
+    }
+    a.btn:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+    .footer{
+      opacity:0.65;
+      font-size: 13px;
+      padding: 14px 16px 16px;
+    }
+    .danger{
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(120, 200, 255, 0.10);
+      border: 1px solid rgba(120, 200, 255, 0.25);
+    }
+    .warning{
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(255, 200, 90, 0.08);
+      border: 1px solid rgba(255, 200, 90, 0.20);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <div class="hero">
+        <div class="imgBox">
+          <img src="image/men/06.jpg" alt="رضا">
+        </div>
+
+        <div>
+          <h1>رضا</h1>
+          <div class="sub">
+            عنصر الذات: <b>الضمير</b> — العدل الذي يضيء الطريق… وقد يحرق صاحبه إن زاد عن الحد.
+          </div>
+
+          <div class="badges">
+            <div class="badge">الهيئة: شاب عشريني بملابس فقيرة</div>
+            <div class="badge">الصفة: محب للناس + منطوٍ + عاطفي دامع</div>
+            <div class="badge">المهمة: العدل + الحق + الإيمان</div>
+            <div class="badge">المهنة: محقق قانوني</div>
+            <div class="badge">الوحش المؤثر: العملاق (الخوف)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="title">البعد النفسي والروائي</div>
+
+        <p>
+          رضا ليس “طيبًا” فقط…
+          رضا هو ضميرٌ يمشي على قدمين.
+          هو ذلك الإنسان الذي إذا رأى ظلمًا في الشارع…
+          يتألم كما لو أن الظلم وقع عليه شخصيًا.
+        </p>
+
+        <p>
+          في أعماقه يعيش رضا ما يُسمى نفسيًا:
+          <b>الأنا الأخلاقية المفرطة</b>.
+          أي أنه لا يكتفي بأن يكون صالحًا…
+          بل يشعر أنه مسؤول عن صلاح الآخرين أيضًا.
+        </p>
+
+        <div class="danger">
+          <b>السر الذي يخفيه رضا:</b><br>
+          رضا يحمل ذنبًا قديمًا لا يعرف أحد حقيقته.
+          خطأ صغير في طفولته…
+          كان سببًا في خسارة شخص قريب.
+          ومن يومها وهو يعاقب نفسه:
+          <b>بأن ينقذ الجميع.</b>
+        </div>
+
+        <p>
+          لهذا تراه فقيرًا.
+          ليس لأنه لا يعمل…
+          بل لأنه لا يعرف أن يقول “لا”.
+          يعطي حقه لغيره…
+          ثم يبتسم وكأنه انتصر.
+        </p>
+
+        <p>
+          الوحش الذي يضغط عليه هو:
+          <b>العملاق (الخوف)</b>.
+          لأن خوف رضا ليس خوفًا على نفسه…
+          بل خوفٌ من أن يُخطئ مرة أخرى.
+          أن يتسبب في أذى جديد.
+          أن يُعيد التاريخ.
+        </p>
+
+        <div class="warning">
+          <b>المفارقة القاتلة:</b><br>
+          رضا يخاف من الشر…
+          لكنه لا يخاف من نفسه عندما تتحول أخلاقه إلى سجن.
+          فيصبح “الخير” نفسه أداة تعذيب.
+        </div>
+
+        <p>
+          في لحظة حاسمة داخل المدينة،
+          سيرى رضا وجه من فقده…
+          وسيسمع العملاق يقول له:
+          <b>“أنت السبب.”</b>
+          وعندها لن يهرب رضا…
+          بل سينهار.
+        </p>
+
+        <p>
+          وهذه هي اللحظة التي سيولد فيها الضمير الحقيقي:
+          ليس الضمير الذي يجلد صاحبه…
+          بل الضمير الذي يغفر…
+          ثم يُصلح.
+        </p>
+
+        <div class="quote">
+          <span>الجملة الذهبية</span>
+          “أنا مش بخاف من الموت… أنا بخاف أعيش… وأنا شايل ذنب مش عارف أتخلص منه.”
+        </div>
+
+        <div class="btns">
+          <a class="btn" href="home.html">⬅ العودة إلى صفحة الوحوش</a>
+          <a class="btn" href="char-05.html">⟵ الشخصية السابقة</a>
+          <a class="btn" href="char-07.html">الشخصية التالية ⟶</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        رواية مدينة الفشل — بطاقات الشخصيات الرسمية.
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

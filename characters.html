@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شخصيات الرواية — مدينة الفشل</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: radial-gradient(circle at top, #111 0%, #000 75%);
+      color:#eee;
+    }
+    .wrap{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    header{
+      text-align:center;
+      margin-bottom: 18px;
+    }
+    h1{
+      margin: 8px 0 6px;
+      font-size: 30px;
+    }
+    .sub{
+      opacity:0.85;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+    @media (max-width: 980px){
+      .grid{ grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      overflow:hidden;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.55);
+      transition: 0.2s;
+    }
+    .card:hover{
+      transform: translateY(-4px);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .imgBox{
+      height: 240px;
+      background:#000;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+    .imgBox img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      filter: contrast(1.12) brightness(0.85);
+    }
+
+    .content{
+      padding: 12px 12px 14px;
+    }
+    .name{
+      font-size: 20px;
+      margin: 0 0 6px;
+    }
+    .meta{
+      font-size: 14px;
+      opacity:0.9;
+      line-height: 1.7;
+    }
+    .tag{
+      display:inline-block;
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+    }
+
+    .btnRow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 12px;
+    }
+    a.btn{
+      text-decoration:none;
+      color:#fff;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 10px 12px;
+      border-radius: 14px;
+      transition: 0.2s;
+      display:inline-block;
+      font-size: 14px;
+    }
+    a.btn:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+
+    .topBtns{
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 14px;
+    }
+
+    footer{
+      text-align:center;
+      opacity:0.6;
+      font-size: 13px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header>
+      <h1>شخصيات رواية مدينة الفشل</h1>
+      <div class="sub">
+        هنا ستجد عناصر الذات مجسّدة في شخصيات حيّة.<br>
+        كل بطاقة ليست تعريفًا… بل نافذة على صراع داخلي.
+      </div>
+
+      <div class="topBtns">
+        <a class="btn" href="home.html">⬅ العودة إلى الوحوش</a>
+        <a class="btn" href="index.html">العودة إلى الغلاف</a>
+      </div>
+    </header>
+
+    <div class="grid">
+
+      <!-- 01 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/01.jpg" alt="الشيخ عبد الهادي"></div>
+        <div class="content">
+          <div class="name">الشيخ عبد الهادي</div>
+          <div class="meta">عنصر الذات: الروح<br>الأكثر تأثرًا: العنكبوت</div>
+          <div class="tag">الروحانية الهادئة… التي تخفي شكًا قديمًا</div>
+          <div class="btnRow">
+            <a class="btn" href="char-01.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/02.jpg" alt="العالم نور"></div>
+        <div class="content">
+          <div class="name">العالم نور</div>
+          <div class="meta">عنصر الذات: العقل<br>الأكثر تأثرًا: الداعم</div>
+          <div class="tag">العقل الذي يفهم كل شيء… ويعجز عن العيش</div>
+          <div class="btnRow">
+            <a class="btn" href="char-02.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/03.jpg" alt="سالم"></div>
+        <div class="content">
+          <div class="name">سالم</div>
+          <div class="meta">عنصر الذات: الجسد<br>الأكثر تأثرًا: العنكبوت</div>
+          <div class="tag">الفعل السريع… الذي يهرب من السكون</div>
+          <div class="btnRow">
+            <a class="btn" href="char-03.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 04 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/04.jpg" alt="حاج نصر فارس"></div>
+        <div class="content">
+          <div class="name">حاج نصر فارس</div>
+          <div class="meta">عنصر الذات: الاتجاه<br>الأكثر تأثرًا: الساحر</div>
+          <div class="tag">الحكمة… حين تتحول إلى سخرية مريرة</div>
+          <div class="btnRow">
+            <a class="btn" href="char-04.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/05.jpg" alt="طموح"></div>
+        <div class="content">
+          <div class="name">طموح</div>
+          <div class="meta">عنصر الذات: المُخ<br>الأكثر تأثرًا: الثعبان ذو الرؤوس</div>
+          <div class="tag">يخطط للجميع… لأنه لا يعرف كيف ينقذ نفسه</div>
+          <div class="btnRow">
+            <a class="btn" href="char-05.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 06 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/06.jpg" alt="رضا"></div>
+        <div class="content">
+          <div class="name">رضا</div>
+          <div class="meta">عنصر الذات: الضمير<br>الأكثر تأثرًا: العملاق</div>
+          <div class="tag">المنقذ… الذي يعاقب نفسه باسم العدالة</div>
+          <div class="btnRow">
+            <a class="btn" href="char-06.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 07 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/07.jpg" alt="أحلام"></div>
+        <div class="content">
+          <div class="name">أحلام</div>
+          <div class="meta">عنصر الذات: القلب<br>الأكثر تأثرًا: الببغاء</div>
+          <div class="tag">الحلم الجميل… الذي يودّع قبل النهاية</div>
+          <div class="btnRow">
+            <a class="btn" href="char-07.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 08 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/08.jpg" alt="أمل"></div>
+        <div class="content">
+          <div class="name">أمل</div>
+          <div class="meta">عنصر الذات: الفؤاد (طاقة إيجابية)<br>الأكثر تأثرًا: القرد</div>
+          <div class="tag">تضحك للجميع… لأنها لا تريد أن تنهار</div>
+          <div class="btnRow">
+            <a class="btn" href="char-08.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 09 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/09.jpg" alt="دنيا"></div>
+        <div class="content">
+          <div class="name">دنيا</div>
+          <div class="meta">عنصر الذات: الزمكان (طاقة سالبة)<br>الأكثر تأثرًا: الصديق</div>
+          <div class="tag">الواقعية المتشائمة… التي تخفي حبًا خائفًا</div>
+          <div class="btnRow">
+            <a class="btn" href="char-09.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/10.jpg" alt="الدكتورة سكن"></div>
+        <div class="content">
+          <div class="name">الدكتورة سكن</div>
+          <div class="meta">عنصر الذات: النفس اللوامة<br>الأكثر تأثرًا: السجان</div>
+          <div class="tag">تعالج الجميع… وتنهار وحدها</div>
+          <div class="btnRow">
+            <a class="btn" href="char-10.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/11.jpg" alt="أسيل بارس"></div>
+        <div class="content">
+          <div class="name">أسيل بارس</div>
+          <div class="meta">عنصر الذات: النفس الأمّارة<br>الأكثر تأثرًا: سيدة الهوى</div>
+          <div class="tag">الإغراء… حين يكون جرحًا متنكرًا</div>
+          <div class="btnRow">
+            <a class="btn" href="char-11.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12 -->
+      <div class="card">
+        <div class="imgBox"><img src="image/men/12.jpg" alt="ليو"></div>
+        <div class="content">
+          <div class="name">ليو</div>
+          <div class="meta">عنصر الذات: القلق / التضليل<br>يتعاون مع: التوأم</div>
+          <div class="tag">العبث… حين يضحك وهو ينهار</div>
+          <div class="btnRow">
+            <a class="btn" href="char-12.html">اقرأ البطاقة</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      مدينة الفشل — معرض الشخصيات الرسمي.
+    </footer>
+
+  </div>
+</body>
+</html>

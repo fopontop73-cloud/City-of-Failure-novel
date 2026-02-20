@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ليو — مدينة الفشل</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: "Tahoma", Arial, sans-serif;
+      background: radial-gradient(circle at top, #0f1216 0%, #000 76%);
+      color:#eee;
+      line-height:1.9;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .card{
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.55);
+    }
+    .hero{
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap: 16px;
+      padding: 16px;
+    }
+    @media (max-width: 850px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+    .imgBox{
+      border-radius: 16px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.12);
+      background:#000;
+      min-height: 360px;
+    }
+    .imgBox img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      display:block;
+      filter: contrast(1.12) brightness(0.82);
+    }
+    h1{
+      margin: 0 0 6px;
+      font-size: 30px;
+    }
+    .sub{
+      opacity:0.9;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin: 10px 0 0;
+    }
+    .badge{
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .section{
+      padding: 0 16px 16px;
+    }
+    .title{
+      font-size: 18px;
+      margin: 12px 0 6px;
+      color: #fff;
+    }
+    .quote{
+      margin-top: 14px;
+      background: rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 14px 14px;
+      font-size: 18px;
+    }
+    .quote span{
+      opacity:0.8;
+      font-size: 14px;
+      display:block;
+      margin-bottom: 8px;
+    }
+    .danger{
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(120, 220, 255, 0.10);
+      border: 1px solid rgba(120, 220, 255, 0.20);
+    }
+    .reveal{
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(255, 255, 120, 0.08);
+      border: 1px solid rgba(255, 255, 120, 0.16);
+    }
+    .btns{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 14px;
+    }
+    a.btn{
+      text-decoration:none;
+      color:#fff;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      padding: 10px 14px;
+      border-radius: 14px;
+      transition: 0.2s;
+      display:inline-block;
+    }
+    a.btn:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+    .footer{
+      opacity:0.65;
+      font-size: 13px;
+      padding: 14px 16px 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <div class="hero">
+        <div class="imgBox">
+          <img src="image/men/12.jpg" alt="ليو">
+        </div>
+
+        <div>
+          <h1>ليو</h1>
+          <div class="sub">
+            عنصر الذات: <b>القلق / التضليل</b> — الفوضى حين تتنكر في هيئة حكمة ساخرة.
+          </div>
+
+          <div class="badges">
+            <div class="badge">الهيئة: عجوز سبعيني بملابس فاخرة غير مرتبة</div>
+            <div class="badge">الصفة: ساخر + غريب الأطوار + نظرات غير مستقرة</div>
+            <div class="badge">المهمة: بث القلق + التشكيك + خلط الحقيقة بالوهم</div>
+            <div class="badge">المهنة: موسيقار</div>
+            <div class="badge">يتعاون مع: الظل</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="title">البعد النفسي والروائي</div>
+
+        <p>
+          ليو ليس شريرًا بالمعنى التقليدي…
+          هو أخطر من ذلك:
+          <b>هو العبث</b>.
+        </p>
+
+        <p>
+          هو ذلك الصوت الذي يأتيك بعد أن تؤمن،
+          وبعد أن تخطط،
+          وبعد أن تتعب،
+          ثم يهمس لك بابتسامة:
+          “وماذا لو كان كل هذا بلا معنى؟”
+        </p>
+
+        <p>
+          ليو يملك مهارة واحدة مدمرة:
+          أن يجعل أي يقين يبدو ساذجًا.
+          لا يهاجمك بقوة…
+          بل يسخر منك حتى تشعر بالخجل من حلمك.
+        </p>
+
+        <div class="danger">
+          <b>السر الذي يخفيه ليو:</b><br>
+          ليو كان يومًا مؤمنًا.
+          لم يكن ساخرًا… بل كان متصوفًا أو راهبًا أو عابدًا.
+          ثم صدمته الحياة صدمة قاسية،
+          فقرر أن ينتقم من “المعنى” نفسه.
+          ليس لأنه يكره الخير…
+          بل لأنه لم يعد يستطيع تصديقه.
+        </div>
+
+        <p>
+          وحين يتعاون مع “التوأم”،
+          يصبح أكثر فتكًا،
+          لأنه لا يضلل بعقله وحده…
+          بل يضلل بالازدواج:
+          يريك الشيء ونقيضه،
+          حتى تفقد القدرة على اختيار أي طريق.
+        </p>
+
+        <p>
+          موسيقار؟
+          نعم…
+          لأن الموسيقى عنده ليست فنًا،
+          بل <b>سلاحًا نفسيًا</b>.
+          يضبط نغمة القلق في قلبك
+          كما يضبط آلة وترية.
+        </p>
+
+        <div class="reveal">
+          <b>الانقلاب الروائي المقترح:</b><br>
+          في النهاية، يقف ليو وحده أمام القارئ،
+          ويقول بصدق لا يخلو من بكاء داخلي:<br><br>
+          <b>“أنا لا أكره الخير… أنا فقط لا أستطيع تصديقه.”</b><br><br>
+          ثم يضيف:<br>
+          <b>“ولو أن واحدًا منكم صدقني… لربما صدقت نفسي.”</b>
+        </div>
+
+        <p>
+          وهنا يصبح ليو مرعبًا…
+          ليس لأنه شيطان،
+          بل لأنه إنسان مكسور
+          اختار أن يكسر الآخرين
+          كي لا يشعر أنه وحده.
+        </p>
+
+        <div class="quote">
+          <span>الجملة الذهبية</span>
+          “أنا لا أُفسد أحلامكم… أنا فقط أذكّركم أنها قابلة للكسر.”
+        </div>
+
+        <div class="btns">
+          <a class="btn" href="home.html">⬅ العودة إلى صفحة الوحوش</a>
+          <a class="btn" href="char-11.html">⟵ الشخصية السابقة</a>
+          <a class="btn" href="index.html">العودة إلى الغلاف ⟶</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        رواية مدينة الفشل — بطاقات الشخصيات الرسمية.
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
